@@ -1,0 +1,18 @@
+/rpos1 1 57 11
+/rpos2 -5 55 6
+/offRender
+/onRender
+/offRender
+/rpos2 -5 55 6
+/rpos1 1 57 11
+/offRender
+/onRender
+/rpos1 1 57 11
+/rpos2 -5 55 6
+/offRender
+/rpos1 1 57 11
+/rpos2 -5 55 6
+/offRender
+/time set day
+/give Player453 minecraft:hopper
+/give Player453 minecraft:hopper_minecart

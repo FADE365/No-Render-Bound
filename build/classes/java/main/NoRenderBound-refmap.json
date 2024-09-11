@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "org/delta/norenderbound/mixin/NoRenderEntityMixin": {
+      "render": "Lnet/minecraft/class_824;method_3555(Lnet/minecraft/class_2586;FLnet/minecraft/class_4587;Lnet/minecraft/class_4597;)V"
+    },
+    "org/delta/norenderbound/mixin/NoRenderHopperMixin": {
+      "render*": "Lnet/minecraft/class_824;method_3555(Lnet/minecraft/class_2586;FLnet/minecraft/class_4587;Lnet/minecraft/class_4597;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "org/delta/norenderbound/mixin/NoRenderEntityMixin": {
+        "render": "Lnet/minecraft/class_824;method_3555(Lnet/minecraft/class_2586;FLnet/minecraft/class_4587;Lnet/minecraft/class_4597;)V"
+      },
+      "org/delta/norenderbound/mixin/NoRenderHopperMixin": {
+        "render*": "Lnet/minecraft/class_824;method_3555(Lnet/minecraft/class_2586;FLnet/minecraft/class_4587;Lnet/minecraft/class_4597;)V"
+      }
+    }
+  }
+}

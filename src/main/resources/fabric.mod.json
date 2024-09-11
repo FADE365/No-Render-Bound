@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "norenderbound",
+  "version": "${version}",
+  "name": "NoRenderBound",
+  "description": "/rpos<1/2> <x> <y> <z> - set bound point | /<on/off>Render - toggle rendering chest in selected bound.",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/norenderbound/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.delta.norenderbound.client.NoRender"
+    ],
+    "main": [
+      "org.delta.norenderbound.NoRenderBound"
+    ]
+  },
+  "mixins": [
+    "norenderbound.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "fabric": "*",
+    "minecraft": "1.20.6"
+  }
+}
